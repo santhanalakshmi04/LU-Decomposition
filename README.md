@@ -43,8 +43,6 @@ Program to find the LU Decomposition of a matrix.
 Developed by: K.SANTHANA LAKSHMI
 RegisterNumber: 212222240091
 '''
-
-# To print X matrix (solution to the equations)
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 A=eval(input())
@@ -53,6 +51,7 @@ lu,piv=lu_factor(A)
 x=lu_solve((lu,piv),B)
 print(x)
 */
+```
 
 ## Output:
 (i) To find the L and U matrix
